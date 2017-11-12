@@ -1,27 +1,50 @@
 body {
   font-family:'Helvetica'
 }
-body, canvas {
-  background-color:#ffffff;
+body {
+  background-color: white;
   padding: 0;
   margin: 0;
 }
 body {
   text-align:center;
 }
-.view h1 {
+.display h1 {
   font-size: 2em;
   color: black;
 }
+.display .center {
+  padding: 20%;
+}
+.display .button {
+  background-color: grey;
+  display: inline-block;
+  padding: 1em 1em;
+  color: lightgrey;
+  text-decoration: none;
+}
+
+.display .button:hover {
+  color: white;
+}
+
 .sidebar {
   position: absolute;
   top: 0;
   left: 0;
-  width: 8em;
+  width: 6em;
   height: 100%;
   background-color: #3b3d3f;
+}
+.sidebar span {
+  text-align: center;
+  display: inline-block;
+  color: white;
 }
 .sidebar ul {
   padding: 0;
   margin: 1em 0 0 0;
+}
+.sidebar li {
+
 }
