@@ -1,16 +1,21 @@
 <html>
   <head>
     <title>Map Cube</title>
+    <script src="assets/js/main.js"></script>
     <link href="assets/css/style.css" rel="stylesheet">
   </head>
   <body>
+    <section id="game">
+      <canvas id="playing" width="500" height="500"></canvas>
+    </section>
   	<section class="display" id="startgame">
       <div class="center">
     	<h1>Cube Map</h1>
-        <a href="#" class="button" onclick="startGame()">Start Game</a>
+        <a href="#" class="button" onclick="startGame(map)">Start Game</a>
         <a href="#" class="button" onclick="showInstructions()">Instructions</a>
       </div>
   	</section>
+
 	<div class="sidebar">
       <ul>
         <li>
